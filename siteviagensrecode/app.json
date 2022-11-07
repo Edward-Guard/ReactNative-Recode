@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "siteviagensrecode",
+    "slug": "siteviagensrecode",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
