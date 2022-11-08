@@ -1,5 +1,6 @@
 import React from 'react';
 import { TextInput, View ,StyleSheet , Text,SafeAreaView} from 'react-native';
+import { FontAwesome } from '@expo/vector-icons'; 
 
 
 
@@ -9,6 +10,7 @@ export default function Login() {
  return (
     <View style={styles.container}>
         <View style={styles.box}>
+        <FontAwesome name="user-circle-o" size={48} color="black" />
             <Text style={styles.texto}>Login</Text>
             <TextInput
             style={styles.input}
@@ -45,10 +47,13 @@ const styles =StyleSheet.create({
         backgroundColor:'white',
       },
     box:{
-        backgroundColor:'#0B2B40',
+        backgroundColor:'#1882c8',
         width:200,
-        height:200,
+        height:250,
         alignItems:'center',
+        margin:20,
+        borderRadius:10,
+        padding:15
         
 
     },
