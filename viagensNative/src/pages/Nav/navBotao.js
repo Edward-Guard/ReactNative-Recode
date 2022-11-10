@@ -22,8 +22,8 @@ const styles =StyleSheet.create({
         flexDirection:'row'
     },
     item:{
-        fontSize:20
-        ,color:'white',
+        fontSize:20,
+        color:'white',
         paddingStart:5,
         paddingEnd:5
     }
