@@ -4,6 +4,9 @@ import NavBotao from './navBotao';
 
 export default function Nav() {
  return (
+
+    
+
    <View style={styles.container}>
     <NavBotao nome='Login' icone='login'></NavBotao>
     <NavBotao nome='Promoções' icone='aircraft'></NavBotao>
