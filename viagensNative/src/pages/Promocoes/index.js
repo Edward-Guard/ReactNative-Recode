@@ -1,9 +1,13 @@
 import React from 'react';
-import { Image, Text, View,StyleSheet ,ScrollView } from 'react-native';
-import Demacia from '../assets/Demacia-promo.jpg'
-import Cartao from './cartao';
-import Noxus from '../assets/Noxkraya.png'
-import Ionia from '../assets/Hirana.webp'
+import {StyleSheet ,ScrollView } from 'react-native';
+
+// import Cartao from './cartao';
+import Cartao from './cartao'
+import Demacia from '../../assets/Demacia-promo.jpg'
+import Ionia from '../../assets/Hirana.webp'
+import Noxus from '../../assets/Noxkraya.png'
+
+
 
 export default function Promocoes() {
  return (

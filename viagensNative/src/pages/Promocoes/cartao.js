@@ -18,6 +18,7 @@ export default function Cartao({local,preco,regiao}) {
     <Text style={styles.userStyle}>Aproveite </Text>
     </View>
     
+    
    </View>
   );
 }
