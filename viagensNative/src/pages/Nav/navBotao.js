@@ -1,9 +1,10 @@
 import {Text ,StyleSheet ,TouchableOpacity} from 'react-native';
 import { Entypo} from '@expo/vector-icons';
+import { NavigationContainer } from '@react-navigation/native';
 
-export default function NavBotao({nome,icone}){
+export default function NavBotao({nome,icone,props}){
     return(
-    <TouchableOpacity style={styles.navItem}>  
+    <TouchableOpacity style={styles.navItem} >  
     <Entypo name={icone} size={24} color="white" />
     <Text style={styles.item}>{nome}</Text>   
     </TouchableOpacity >

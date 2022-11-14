@@ -1,13 +1,11 @@
 import React from 'react';
-import { View ,StyleSheet} from 'react-native';
+import { View ,StyleSheet,Button} from 'react-native';
 import NavBotao from './navBotao';
 
-export default function Nav() {
+export default function Nav(props) {
  return (
-
-    
-
    <View style={styles.container}>
+    
     <NavBotao nome='Login' icone='login'></NavBotao>
     <NavBotao nome='Promoções' icone='aircraft'></NavBotao>
     <NavBotao nome='Ajuda' icone='help-with-circle'></NavBotao>

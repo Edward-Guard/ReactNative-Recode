@@ -1,10 +1,11 @@
 import React from 'react';
-import { Image, Text, View,StyleSheet } from 'react-native';
+import { Image, Text, View,StyleSheet ,Button} from 'react-native';
 
 
 export default function Cartao({local,preco,regiao}) {
  return (
    <View style={styles.container}>
+    
     <View style={styles.row}>
         <Text style={styles.userStyle}>{local}</Text>
         <Text style={styles.userStyle}>G$ {preco}</Text>

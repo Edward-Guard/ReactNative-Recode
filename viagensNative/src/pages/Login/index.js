@@ -2,6 +2,7 @@ import React from 'react';
 import { View ,StyleSheet , Text,TouchableOpacity} from 'react-native';
 import { FontAwesome } from '@expo/vector-icons'; 
 import Input from './input';
+import Nav from '../Nav';
 
 
 export default function Login() {
@@ -16,8 +17,11 @@ export default function Login() {
     }
     
  return (
+    
     <View style={styles.container}>
+        
         <View style={styles.box}>
+    
         <FontAwesome name="user-circle-o" size={48} color="black" />
             <Text style={styles.texto}>Login</Text>
 
